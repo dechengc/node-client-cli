@@ -2,7 +2,6 @@ import inquirer from 'inquirer';
 import request from 'request';
 
 async function promptForMissingOptions() {
-  let options = {};
   const questions = [];
   questions.push({
     type: 'string',
